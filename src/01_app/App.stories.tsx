@@ -1,9 +1,8 @@
-/* eslint i18next/no-literal-string: "off" */
-import {About} from './About';
+import {App} from './App';
 
 const meta = {
-    component: About,
-    title: 'components/About',
+    component: App,
+    title: 'app/App',
 };
 
 export default meta;
@@ -12,7 +11,7 @@ export default meta;
 export const Component = () => {
     return (
         <>
-            <About/>
+            <App/>
         </>
     );
 };

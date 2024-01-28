@@ -1,3 +1,9 @@
+.reset {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
 .font {
     color: white;
     font-size: 12px;
@@ -14,10 +20,21 @@
 
 .colored {
     background-color: rgba(232, 195, 0, 1);
+    padding: 20px 0;
+}
 
+.colored:active {
+    background-color: white;
+    color: rgba(232, 195, 0, 1);
 }
 
 .outline {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px 0;
+}
+
+.outline:active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white;
 }

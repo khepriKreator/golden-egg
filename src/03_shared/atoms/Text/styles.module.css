@@ -1,9 +1,9 @@
 .kurale {
-    font-family: 'Kurale';
+    font-family: Kurale;
 }
 
 .openSans {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* SIZE */
@@ -35,7 +35,7 @@
 
 .xxl {
     font-size: 72px;
-    line-height: 78px;
+    line-height: 100px;
 }
 
 /* COLOR */
@@ -49,6 +49,10 @@
 
 .gray {
     color: rgba(51, 51, 51, 0.5);
+}
+
+.yellow {
+    color: rgba(232, 195, 0, 1);
 }
 /* BOLD */
 

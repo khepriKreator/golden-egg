@@ -1,0 +1,29 @@
+.reset {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.tab {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tab:active {
+    border-top: 5px solid rgba(232, 195, 0, 1);
+    padding-top: 35px;
+}
+
+@media screen and (min-width: 1024px) {
+    .tab {
+        min-width: 133px;
+    }
+}

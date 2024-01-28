@@ -1,12 +1,13 @@
 import styles from './styles.module.css';
 import classNames from "classnames";
+import React from "react";
 
 export type TextProps = {
-    children: string;
+    children: React.ReactNode;
     bold: boolean;
-    size: string;
-    color: string;
-    font: string;
+    size: 'xs' | 's' | 'm' | 'l' | 'xl' | 'xxl';
+    color: 'white' | 'black' | 'gray' | 'yellow';
+    font: 'kurale' | 'default';
     uppercase: boolean;
 }
 
@@ -27,6 +28,7 @@ export const Text = ({children, color = 'black', font = 'default', bold = false,
         [styles.black]: color === 'black',
         [styles.white]: color === 'white',
         [styles.gray]: color === 'gray',
+        [styles.yellow]: color === 'yellow',
     }, {
         [styles.uppercase]: uppercase === true
     })

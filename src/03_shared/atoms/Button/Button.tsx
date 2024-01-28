@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import classNames from 'classnames'
+import classNames from 'classnames';
 import React from "react";
 
 export type ButtonProps = {
@@ -8,7 +8,7 @@ export type ButtonProps = {
 }
 
 export const Button = ({children, variant}: ButtonProps) => {
-    const className = classNames(styles.button, styles.font, {
+    const className = classNames(styles.reset, styles.button, styles.font, {
         [styles.colored]: variant === 'colored',
         [styles.outline]: variant === 'outline'
     })

@@ -4,7 +4,7 @@ import {Text, TextProps} from './Text';
 
 const meta: Meta<TextProps> = {
     component: Text,
-    title: 'Text',
+    title: 'shared/atoms/Text',
 };
 
 export default meta;
@@ -13,7 +13,15 @@ export default meta;
 export const Component = () => {
     return (
         <>
-            <Text/>
+            <Text
+                size={'s'}
+                uppercase={false}
+                bold={false}
+                color={'black'}
+                font={'openSans'}
+            >
+                Text
+            </Text>
         </>
     );
 };

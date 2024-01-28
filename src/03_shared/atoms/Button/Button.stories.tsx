@@ -12,19 +12,21 @@ export default meta;
 
 export const Component = () => {
     return (
-        <>
+        <div style={{background: 'lavender', display: 'flex', alignItems: 'center', columnGap: '50px', padding:'100px'}}>
             <Button variant={'colored'}>
                 Button
             </Button>
             <Button variant={'outline'}>
                 Button
             </Button>
+            {/*
             <Button variant={null}>
                 <svg>
-                    <use href={'my-react-app/src/assets/sprite-svg/sprite-icons.svg#downButton'}/>
+                    <use href={'src/assets/sprite-svg/sprite-icons.svg#phone'}/>
                 </svg>
             </Button>
-        </>
+            */}
+        </div>
     );
 };
 

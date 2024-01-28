@@ -1,10 +1,9 @@
 /* eslint i18next/no-literal-string: "off" */
-import {Meta} from '@storybook/react';
-import {Header, HeaderProps} from './Header';
+import {Header} from './Header';
 
-const meta: Meta<HeaderProps> = {
+const meta = {
     component: Header,
-    title: 'Header',
+    title: 'components/Header',
 };
 
 export default meta;
