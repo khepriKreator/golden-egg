@@ -1,10 +1,10 @@
 /* eslint i18next/no-literal-string: "off" */
-import {Meta} from '@storybook/react';
+import {Meta} from '@storybook/react
 import {Button, ButtonProps} from './Button';
 
 const meta: Meta<ButtonProps> = {
     component: Button,
-    title: 'Button',
+    title: 'shared/atoms/Button',
 };
 
 export default meta;
